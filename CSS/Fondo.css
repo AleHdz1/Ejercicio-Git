@@ -1,0 +1,13 @@
+body{
+    background: blue;
+    background: url(./girasoles.jpeg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.Container{
+    background: rgb(49,28,12);
+    color: bisque;
+    font-size: 35px;
+    text-align: center;
+}

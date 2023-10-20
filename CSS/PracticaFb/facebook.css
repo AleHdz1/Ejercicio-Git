@@ -1,0 +1,89 @@
+body{
+    box-sizing: border-box;
+    margin: 50px 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: white;
+}
+nav{
+    display: flex;
+}
+header{
+    width: 40px;
+    position: relative;
+}
+.Menú{
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+    width: 100%;
+    margin: 15px;
+}
+.Menú li a{ 
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    right: 70px;
+}
+.boton a{
+    background: rgb(72, 136, 225);
+    border-radius: 15px;
+    padding: 15px;
+    height: 15px;
+    width: 100px;
+    margin-left: 1900px;
+    text-decoration: none;
+}
+
+.article-facebook h1{
+    color: black;
+    font-size: 15px;
+    margin-bottom:15px;
+    margin-top:25px;
+}
+.article-facebook p{
+    line-height: 30px;
+}
+.article-facebook-img img{
+    width: 200px;
+    position: absolute;
+    left: 60%;
+    bottom: 30%;
+}
+.imag-article{
+    margin-left: 2000px;
+    margin-right: 20px;
+    width: 100%;
+}
+.Download-App p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.Download App a{
+    background: #1b4497;
+    border-radius: 15px;
+    padding: 15px;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+footer{
+    margin-top: 100px;
+}
+footer img{
+    width: 30px;
+}
+footer ul{  
+    padding: 0;
+}
+.medios{
+    list-style: none;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    padding: 5px;
+}

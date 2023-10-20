@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Wendy+One&display=swap');
+
+Body{
+    background: rgb(133, 46, 133);
+    font-family: "Wendy One";
+    box-sizing: border-box;
+}
+
+.Menú{
+    list-style: none;   
+    background: rgb(74, 1, 70);
+    width: 100%;
+    margin: 15px;
+   /* max-width: 1000px;*/
+    text-align: center;
+    /*Float sirve para mover cuadros de texto dentro de nuesta pag principal left o right*/
+    /*Position tiene más propiedades static, absolute=imagen para poder posicionar, relative listado a tantos pixeles, float*/
+    position: absolute;
+    right: 70px;
+}
+.Menú li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+.Menú li a{
+text-decoration: none;
+color: white;
+display: inline-block;
+padding: 10px;
+font-size: 18px;
+}

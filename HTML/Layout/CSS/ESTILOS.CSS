@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+Body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: #797b4b;
+}
+header{
+    background: white;
+}
+
+header nav{
+    width: 100%;
+}
+header nav ul li{
+    list-style: none;
+    float: right; 
+}
+header nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    color: rgb(32, 3, 47);
+    font-size: 25px;
+}
+header nav ul li a:hover{
+opacity: 1;
+border: 1px solid aqua;
+}
+
+aside .widget{
+    margin-bottom: 20px;
+}
+aside .widget h3{
+    color: ;
+}
+aside .widget ul{
+    list-style: none;
+}
+aside .widget ul li{ 
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+}
+aside .widget ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+aside .widget ul li a:hover{
+    opacity: 1;
+    border: 1px solid rgb(22, 102, 82);
+}
+
+section article h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 35px;
+}
+section article p{
+    margin: 10px;
+    line-height: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside div h3{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom:15px;
+    border-bottom: 1px solid olive;
+}
+aside div ul li a{
+    color: black;
+    line-height: 25px;
+    text-decoration: none;
+    opacity: .8;
+}
+
+aside div p{
+    color: black;
+    line-height: 30px;
+}
+
+.contenedor{
+    max-width: 70%;
+
+}
+@media(max-width: 700px){
+    body{
+        background: red;
+    }
+}
+
+footer{
+    width: 70%;
+    background: black;
+    color: rgb(232, 219, 235);
+    text-align: center;
+    padding: 12px 0;
+    overflow: hidden;
+    bottom:70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    clear: both;
+    bottom: 50px;
+}

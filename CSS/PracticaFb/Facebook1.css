@@ -1,0 +1,27 @@
+Body{
+    background: white;
+    box-sizing: border-box;
+}
+.logo img{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.Menú li{
+    list-style: none;   
+    width: 90%;
+    margin: 70px 15px;
+    text-align: center;
+    padding:15px;
+}
+li a{ 
+    color: rgb(67, 66, 66);
+    margin: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: .9;
+}
+li a:hover{
+    opacity: 1;
+    border: 3px solid blue;
+}

@@ -1,0 +1,51 @@
+body{
+    background: url(./img/annie-spratt-UR2DMIFuc5c-unsplash.jpg);
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div{
+    margin: 25px;
+}
+
+.btn{
+    background: rgb(87,9, 9);
+    color: beige;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+ margin: 0px 10px;   
+}
+.small{
+    font-size: 12px;
+    padding: 10px 15px;
+}
+.medium{
+    font-size: 15px;
+    padding: 10px 20px;
+}
+.big{
+    font-size: 18px;
+    padding: 10px 25px;
+}
+.extra-big{
+    font-size: 21px;
+    padding: 10px 30px;
+}
+.violeta{
+    background: darkviolet;
+}
+.azul{
+    background: rgb(2, 109, 109);
+}
+.purple{
+    background: purple;
+}
+.border-radius{
+    border-radius: 75px;
+}
+.btn:hover{
+    opacity: .7;
+    color: black;
+}

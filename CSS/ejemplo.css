@@ -1,0 +1,29 @@
+/*Selector de etiquetas*/
+
+/*Selector{
+    Propiedad:valor}*/
+
+    *{margin: 30px;
+
+    }
+h1{
+    color: blueviolet;
+}
+p{  
+    text-align: justify;
+    font-size: 20px;
+}
+/*Selector de descendiente. span divide para apartar un texto para estilo*/
+div p span{ 
+    color: rgb(252, 166, 7);
+    font-size: 30px;
+}
+div p .Morado{
+    color: purple;
+}
+    .ejemplo{
+        color: blue;
+    }
+    #párrafo{
+        color: rgb(173, 3, 105);
+    }

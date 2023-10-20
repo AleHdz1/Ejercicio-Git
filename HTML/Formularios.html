@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div> <!--Este contenedor, va a llevar todo el sitio web-->
+       <section class="Teoría"><h2>Formularios en HTML</h2>
+        <p>El objetivo de los formularios en HTML es crear la comunicacón o interactividad con mi usuario final </p>
+    <div class="Etiquetas">
+    <ul>
+        <li>input: Se usa para crear controles interactivoscon la foinalidad de recibir datos del usuario</li><!--CAMPO DE TEXTO que siempre se utiliza en formularios-->
+        <ol>
+            <h2>Atributos</h2>
+                <li>type: Tipo de información que quieres recibir para poder interpretarla como tal. Pj. Text,number,password,email,etc.</li>
+                <li>Placeholder: Podemos guiar al usuario escribiendo la instrucción o la info que tiene que poner.</li>
+                <li>Maxlength: largo máximo de caracteres que va a admitir el input</li>
+                <li>Required: Campos obligatorios que de no ser llenados no permitirá enviar el formulario al campo que se le asigne volviendo al input faltante.Validación sencilla.</li>
+                <li>Name: Para identificar los input en los archivos como php</li>
+                <li>ID: Sirve para darle un valor como identificador único</li>
+                <li>For: me da pie a que comience a escribir en el input seleccionado</li>
+        </ol>
+    </ul>
+    </div>
+    </section><!--Section. es atajo para acceder a Section con class-->
+    <section class="form">
+        <form>
+<label for="Nombre"ta>Inserta Nombre</label><br><input type="text" placeholder="Inserta nombre" maxlength="25" required name="nombre" id="Nombre">
+<br><br>
+<input type="Email" placeholder="Inserta tu Email" required>
+<br><br>
+<input type="Password" Name="Password" ID="Pass">
+<br><br>
+<input type="Checkbox" Name="Términos" id="Términos">
+<label for="Términos">Términos y condiciones</label><br>
+<input type="Checkbox" Name="Términos" id="Términos1"><!--Con Checkbox puedo agregar los inputs que deseemos-->
+<label for="Términos">Políticas de privacidad</label>
+<br><br>
+<input type="Radio" name="Género" value="Mujer" id="Mujer"><label for="Hombre">Hombre</label>
+<input type="Radio" name="Género" value="Mujer" id="Mujer"><label for="Mujer">Mujer</label>
+<input type="Radio" name="Género" value="Otro" id="Otro"><label for="Otro">Otro</label><br><br>
+<textarea name="Comentario" id="Comentario" cols="" rows=""></textarea><!--Para comentarios-->
+<label for="">Ingresa tu país</label><br>
+<select name="País" id="País" required>
+    <option value="">---</option>
+    <option value="México">México</option>
+    <option value="Estados Unidos">Estados Unidos</option>
+    <option value="España">España</option>
+</select>
+<!--Footer la revisamos próxima clase-->
+<br><br>
+<input type="submit" value="Enviar"
+
+        </form>
+
+    </section>
+
+    </div>
+</body>
+</html>

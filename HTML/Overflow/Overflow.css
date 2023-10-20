@@ -1,0 +1,24 @@
+div.scroll{
+    background: rgb(90, 3, 90);
+    width: 250px;
+    height: 250px;
+    overflow: scroll;
+}
+div.hidden{
+    background: rgb(10, 223, 198);
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+div.auto{
+    background: rgb(173, 80, 210);
+    width: 250px;
+    height: 250px;
+    overflow: auto;
+}
+div.visible{
+    background: rgb(126, 127, 193);
+    width: 250px;
+    height: 250px;
+    overflow: visible;
+}
